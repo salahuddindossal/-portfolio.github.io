@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* styling for Navbar */
+
+.navbar{
+    background-color: #efedfc;
+}
+
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    display: inline-block;
+    background: linear-gradient(90deg, #7b2cbf, #9d4edd, #c77dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Optional fallback */
+
+}
+
+#navbarNav{
+  width: 500px;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: black;
+    font-weight: 500;
+}
+
+.signIn{
+    height: 40px; 
+    width: 110px;
+    background: none;
+    border-radius: 10px;
+    border: none;
+    color: rgb(75, 72, 72);
+    font-size: 20px;
+}
+
+.signUp{
+    height: 40px;
+    width: 110px;
+    height: 40px;
+    width: 110px;
+    background: none;
+    border-radius: 10px;
+    border: none;
+    color: rgb(75, 72, 72);
+    font-size: 20px;
+}
+
+.signIn:hover{
+    background-color: #9647db;
+    color: aliceblue;
+
+} 
+
+.signUp:hover{
+    background-color: #9647db;
+    color: aliceblue;
+
+}
+
+
+/* styling for footer */
+
+
+
+.footer {
+    background-color: #f5f3ff;
+    border-radius: 12px;
+    padding: 40px 20px;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #444;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  .social-icons a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: #9a54f5;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+
+  .footer-bottom {
+    border-top: 1px solid #e0d7f5;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+    .main-heading{
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 50px;
+    }
+    .subs{
+     font-weight: 700;
+    }
+    
+    p {
+      color: #7b8181;
+    }
+    .para{
+      font-size:15px ;
+    }
+    .prod{
+      color:#7700ffc9;
+    }
+    .card {
+      border: none;
+      transition: transform 0.3s ease;
+      background-color:rgba(202, 218, 235, 0.356);
+      height:300px;
+      border-radius: 15px;
+      width: 350px;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .icon{
+      color:#7700ffc9;
+      background: transparent;
+      border: none;
+      border-radius: 10px;
+      font-size: 35px;
+      margin: 23px 10px;
+      /* background-color: #7700ff; */
+    }
+    .learn{
+        text-decoration: none;
+      color: black;
+      font-weight: 600;
+      
+    }
+    .card-title{
+      font-weight: 700;
+      margin-bottom:12px ;
+    }
+    
+    .btn-primary {
+      background-color: #7700ffc9;
+      border: none;
+      font-weight: 500;
+      transition: 0.5s ease-in-out;
+      margin-left: 13px;
+      padding: 7px 16px;
+      border-radius: 10px;
+    }
+    
+    .btn-primary:hover {
+      color: #7700ffc9;
+      background-color:white;
+      border: 2px solid #7700ff;
+      transform: scale(1.1s);
+    }
+    .started{
+      margin-right: 20px;
+      border: none;  
+      border-radius: 30px;
+      background-color: #7700ffc9;
+      color: white;
+      padding: 5px 27px 5px;
+      font-size: 13px;
+      transition: 0.5s ease-in-out;
+    }
+    .fa-arrow-right{
+      margin-left:3px;
+    }
+    .a-circle-play{
+      margin-left: 5px;
+    }
+    .started:hover{
+      color: #7700ffc9;
+      background-color: white;
+      border: 1px solid #7700ffc9;
+      transform: scale(1.1s);
+    }
+    .demo{
+      color: #7700ffc9;
+      padding: 4px 30px 4px;
+      font-size: 12px;
+      border-radius: 30px;
+      background-color: white;
+      transition: 0.6s ease-in-out;
+      border: 1px solid #7700ffc9;
+    }
+    .demo:hover{
+      background-color: #7700ffc9;
+      color: white;
+      transform: scale(1.1s);
+    }
+    .h5{
+      color: #7b8181;
+      font-size: 13px;
+    }
+    .spacing{
+      margin: 40px;
+    }
+    .unlock {
+      background-color: #7700ffaf;
+      text-align: center;
+      color: white;
+      border: none;
+      font-size: 13px;
+      border-radius: 30px;
+      padding: 30px;
+      max-width: 750px;
+      width: 100%;
+      height: 300px;
+      margin: auto;
+    }
+    
+    .paragraph {
+      text-align: center;
+      color: white;
+      font-weight: 200;
+      font-size: 14px;
+    }
+    
+    .input-icon-wrapper {
+      position: relative;
+      display: block;
+    }
+    
+    .icon-input {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      color: white;
+      pointer-events: none;
+      font-size: 14px;
+    }
+    
+    .Input {
+      background-color: transparent;
+      color: white;
+      border-radius: 10px;
+      border: 1px solid #40008a;
+      padding: 6px 15px 6px 35px;
+      height: 40px;
+    }
+    
+    .Input::placeholder {
+      color: white;
+      font-weight: 200;
+    }
+    
+    .btn-primary {
+      background-color: #7700ffc9;
+      border: none;
+      font-weight: 500;
+      transition: 0.3s ease-in-out;
+      padding: 10px 16px;
+      border-radius: 10px;
+    }
+    
+    .btn-primary:hover {
+      color: #7700ffc9;
+      background-color: white;
+      border: 2px solid #7700ff;
+    }
+    
+    @media (max-width: 576px) {
+      .unlock{
+        width: 482px;
+        border-radius: 8%;
+        border: none;
+       height: 330px;
+      }
+      .Input {
+        margin-top: 5px;
+        margin-left: 12px;
+        width: 50%;
+      }
+    .icon-input{
+      margin-top: 2px;
+      margin-left: 12px;
+    }
+      .btn-primary {
+        margin-top: 5px;
+      }
+    }
+  
+  /* salahuddin */
+  .h1{
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  
+  .img{
+    height: 300px;
+    width: 450px;
+  }
+  
+  .rcontainer{
+    margin-left: 50px;
+    background-color: #7700ffc9;
+    color: white;
+    font-size: 14px;
+  }
+  .tick{
+    width: 10px;
+    height: 10px;
+  }
+  .icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 250px;
+    
+  }
+  
+  .off{
+    background-color: #7700ffc9;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 5px;
+    font-size: 9px;
+  }
+  .fa-toggle-on{
+    font-size: 22px;
+    color: #7700ffc9; 
+  }
+  .price{
+    font-weight: 900;
+  }
+  .button{
+  
+  }
